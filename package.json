@@ -1,0 +1,31 @@
+{
+  "name": "dicjs",
+  "version": "0.0.1",
+  "description": "dependency injection container",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "start": "rollup -c rollup.config.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grachpower/DicJS.git"
+  },
+  "keywords": [
+    "di",
+    "dic",
+    "dependency",
+    "injection"
+  ],
+  "author": "Artyom Andreev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grachpower/DicJS/issues"
+  },
+  "homepage": "https://github.com/grachpower/DicJS#readme",
+  "devDependencies": {
+    "rollup-plugin-typescript": "^0.8.1",
+    "typescript": "^2.7.2",
+    "rollup": "^0.56.1"
+  },
+}
